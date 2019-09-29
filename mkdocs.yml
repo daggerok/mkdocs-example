@@ -1,0 +1,29 @@
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue grey'
+    accent: 'black'
+  logo:
+    icon: 'cloud'
+  language: 'en'
+extra:
+  search:
+    language: 'en, ru'
+repo_name: 'daggerok/mkdocs-example'
+repo_url: 'https://github.com/daggerok/mkdocs-example'
+site_url: 'https://daggerok.github.io/mkdocs-example/'
+social:
+  - type: 'github'
+    link: 'https://github.com/daggerok'
+site_name: mkdocs-example
+docs_dir: ./docs/
+plugins:
+  - search:
+  - minify:
+      minify_html: true
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
