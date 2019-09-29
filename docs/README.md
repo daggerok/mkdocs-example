@@ -1,5 +1,5 @@
 # mkdocs-example
-Generate material design documentation.
+Generate material design documentation: [![Build Status](https://travis-ci.org/daggerok/mkdocs-example.svg?branch=master)](https://travis-ci.org/daggerok/mkdocs-example)
 
 ```bash
 mkdir -p mkdocs-example
